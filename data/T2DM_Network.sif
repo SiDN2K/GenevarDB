@@ -1,0 +1,233 @@
+SLC9B2	interacts with	Impaired Insulin Secretion
+SLC9B2	interacts with	Disease Susceptibility
+MIR3646	interacts with	Transcriptional Regulation
+MIR3646	interacts with	Disease Susceptibility
+HNF4A	interacts with	Hypoglycemia
+HNF4A	interacts with	β-cell function
+PEPD	interacts with	Fatty acid Metabolism
+PEPD	interacts with	Disease Susceptibility
+BCL2	interacts with	Disease Susceptibility
+BCL2	interacts with	Cell Apoptosis
+NECTIN2	interacts with	Inflammation
+NECTIN2	interacts with	Disease Susceptibility
+SLC22A3	interacts with	Diabetes Retinopathy
+SLC22A3	interacts with	Disease Susceptibility
+KCNK17	interacts with	Metformin efficacy
+KCNK17	interacts with	Disease Susceptibility
+SLC22A2	interacts with	Metformin efficacy
+SLC22A2	interacts with	Disease Susceptibility
+KCNK16	interacts with	Impaired Insulin Secretion
+KCNK16	interacts with	Disease Susceptibility
+ANXA5	interacts with	Disease Susceptibility
+ANXA5	interacts with	Metabolic Pathways
+MAEA	interacts with	Disease Susceptibility
+TMEM18	interacts with	Energy Regulation
+TMEM18	interacts with	Controls food intake
+TMEM18	interacts with	Disease Susceptibility
+FAF1	interacts with	Glucose Homeostasis
+FAF1	interacts with	Insulin Resistance
+MACF1	interacts with	Glucose Homeostasis
+MACF1	interacts with	Insulin Resistance
+GATAD2A	interacts with	Metabolic Pathways
+RGS11	interacts with	Glucose Homeostasis
+RGS11	interacts with	Insulin Resistance
+FAM234A	interacts with	Disease Susceptibility
+FAM234A	interacts with	Metabolic Pathways
+KL	interacts with	Disease Susceptibility
+RNF6	interacts with	Excessive Insulin Secretion
+RNF6	interacts with	Cell Apoptosis
+ITPR2	interacts with	Impaired Insulin Secretion
+ITPR2	interacts with	Mitochondrial Function
+BRAF	interacts with	Metabolic Pathways
+BTNL2	interacts with	Impaired Insulin Secretion
+BTNL2	interacts with	Insulin Resistance
+JADE2	interacts with	Glucose Homeostasis
+JADE2	interacts with	Insulin Resistance
+GRB14	interacts with	Glucose Homeostasis
+GRB14	interacts with	Reduced Insulin Signaling
+HMG20A	interacts with	Impaired Insulin Secretion
+HMG20A	interacts with	β-cell Proliferation
+LINGO1	interacts with	Glucose metabolism
+LINGO1	interacts with	Insulin Resistance
+JMJD1C	interacts with	Insulin Resistance
+JMJD1C	interacts with	lipogenesis
+LRP12	interacts with	Lipid Metabolism
+LRP12	interacts with	Glucose metabolism
+PMP2	interacts with	Lipid Metabolism
+PMP2	interacts with	Mylien Stability
+FABP5	interacts with	Fatty acid Metabolism
+E2F7	interacts with	Impaired Insulin Secretion
+E2F7	interacts with	Genomic Stability
+EYA2	interacts with	Impaired Insulin Secretion
+EYA2	interacts with	Pancreatic beta cells
+RIT2	interacts with	Transcriptional Regulation
+RIT2	interacts with	Insulin Resistance
+SYT4	interacts with	Impaired Insulin Secretion
+SYT4	interacts with	Glucose metabolism
+HSF1	interacts with	Glucose Homeostasis
+HSF1	interacts with	Insulin Resistance
+SLCO4C1	interacts with	Glucose metabolism
+SLCO4C1	interacts with	Insulin Resistance
+GYS2	interacts with	Glucose Homeostasis
+CRHR2	interacts with	Hyperglycemia
+CRHR2	interacts with	Insulin Resistance
+GLP2R	interacts with	Glucose metabolism
+GLP2R	interacts with	Genetic Polymorphisms
+ZZEF1	interacts with	Adipose tissue disorders
+CMIP	interacts with	Independent Pleiotropic Effects
+CMIP	interacts with	Genetic Polymorphisms
+NRXN3	interacts with	Impaired Insulin Secretion
+NRXN3	interacts with	Insulin Resistance
+KCNK7	interacts with	Insulin Resistance
+KCNK7	interacts with	Hyperglycemia
+MAP3K11	interacts with	Signaling Pathways
+PLEKHA1	interacts with	Insulin Resistance
+PLEKHA1	interacts with	Bone metabolism
+HLA-DQA1	interacts with	Kidney function
+HLA-DRB1	interacts with	Excessive Insulin Secretion
+ACSL1	interacts with	Fatty acid Metabolism
+ACSL1	interacts with	Immune Response
+ZBTB20	interacts with	Energy Homeostasis
+MCC	interacts with	Comobidity clusters
+MCC	interacts with	Hypertension-Hyperlipidemia-Obesity
+MCC	interacts with	Disease Susceptibility
+ETV1	interacts with	Transcriptional Regulation
+ATOH1	interacts with	Transcriptional Regulation
+SMARCAD1	interacts with	Adermatoglyphia
+SMARCAD1	interacts with	Disease Susceptibility
+RAI1	interacts with	Altered Fat distribution
+RAI1	interacts with	Genetic Polymorphisms
+NUFIP2	interacts with	Hyperglycemia
+NUFIP2	interacts with	Genetic Polymorphisms
+SLC2A2	interacts with	Impaired Insulin Secretion
+SLC2A2	interacts with	Hyperglycemia
+CACNA1G	interacts with	Impaired Insulin Secretion
+CACNA1G	interacts with	Pancreatic beta cells
+SCAT8	interacts with	Glucose metabolism
+SCAT8	interacts with	Energy Homeostasis
+EYS	interacts with	Glucose metabolism
+EYS	interacts with	Energy Homeostasis
+VPS33B	interacts with	Glucose metabolism
+VPS33B	interacts with	Energy Homeostasis
+MC4R	interacts with	Energy Homeostasis
+MC4R	interacts with	Metabolic Pathways
+MAU2	interacts with	Glucose metabolism
+MAU2	interacts with	Energy Homeostasis
+SUGP1	interacts with	Glucose metabolism
+SUGP1	interacts with	Energy Homeostasis
+PTHLH	interacts with	Glucose metabolism
+PTHLH	interacts with	Energy Homeostasis
+ARAP1	interacts with	Glucose metabolism
+ARAP1	interacts with	Energy Homeostasis
+SLC1A1	interacts with	Glucose metabolism
+SLC1A1	interacts with	Energy Homeostasis
+GLIS3	interacts with	Impaired Insulin Secretion
+GLIS3	interacts with	Cell Apoptosis
+MIR486-1	interacts with	Translational Inhibition
+MIR486-1	interacts with	Disease Susceptibility
+ANK1	interacts with	Erythrocyte Membrane Stability
+ANK1	interacts with	Disease Susceptibility
+AGTR2	interacts with	Glucose metabolism
+AGTR2	interacts with	Energy Homeostasis
+EHMT2	interacts with	Transcriptional Regulation
+EHMT2	interacts with	Histone Methylation
+C2	interacts with	Immune Response
+CCND2	interacts with	Overexpression
+CCND2	interacts with	Higher BMI
+CCND2	interacts with	Disease Susceptibility
+PPIP5K2	interacts with	Glucose metabolism
+PPIP5K2	interacts with	Energy Homeostasis
+NYAP2	interacts with	Glucose metabolism
+NYAP2	interacts with	Energy Homeostasis
+NKX6-3	interacts with	Glucose metabolism
+NKX6-3	interacts with	Energy Homeostasis
+GPAT4	interacts with	Glucose metabolism
+GPAT4	interacts with	Energy Homeostasis
+CAMKK2	interacts with	Glucose metabolism
+CAMKK2	interacts with	Energy Homeostasis
+ABO	interacts with	Reduced Insulin Signaling
+ABO	interacts with	Glucose Metabolism
+ZMIZ1	interacts with	Transcriptional Regulation
+ZMIZ1	interacts with	Signaling Pathways
+WFS1	interacts with	Cell Apoptosis
+WFS1	interacts with	Increased ER Stress
+PPP2R2C	interacts with	Insulin Resistance
+PPP2R2C	interacts with	Hyper Insulimenia
+AGMO	interacts with	Lipid Metabolism
+VEGFA	interacts with	Kidney function
+POLR1C	interacts with	Hyperglycemia
+POLR1C	interacts with	β-cell function
+SPRY2	interacts with	Hyperglycemia
+SPRY2	interacts with	β-cell Proliferation
+DUSP9	interacts with	Liver Fat Estimates
+HNF1B	interacts with	Pancreatic Dysplasia
+HNF1B	interacts with	Kidney function
+RPGRIP1L	interacts with	Reduced Insulin Signaling
+FTO	interacts with	Glucose metabolism
+FTO	interacts with	lipogenesis
+ZFAND6	interacts with	Cardio-Metabolic Disorders
+ZFAND6	interacts with	Disease Susceptibility
+PRC1	interacts with	Impaired Insulin Secretion
+PRC1	interacts with	lipogenesis
+HNF1A	interacts with	Impaired Insulin Secretion
+HNF1A	interacts with	Glucose Intolerance
+TSPAN8/LGR5	interacts with	Impaired Insulin Secretion
+TSPAN8/LGR5	interacts with	β-cell function
+HMGA2	interacts with	Impaired Insulin Secretion
+HMGA2	interacts with	Kidney function
+MTNR1B	interacts with	Glucose metabolism
+MTNR1B	interacts with	Impaired Insulin Secretion
+TRPM5	interacts with	Impaired Insulin Secretion
+TRPM5	interacts with	Metabolic Pathways
+KCNQ1	interacts with	Impaired Insulin Secretion
+CDC123/CAMK1D	interacts with	Impaired Insulin Secretion
+CDC123/CAMK1D	interacts with	β-cell function
+HHEX	interacts with	Insulin Resistance
+HHEX	interacts with	β-cell function
+TCF7L2	interacts with	Transcriptional Regulation
+TCF7L2	interacts with	Hypoglycemia
+TLE4	interacts with	Transcriptional Regulation
+TLE4	interacts with	Metabolic Pathways
+CDKN2A/B	interacts with	Impaired Insulin Secretion
+CDKN2A/B	interacts with	β-cell Proliferation
+NDUFAF6	interacts with	Liver Fat Estimates
+NDUFAF6	interacts with	Insulin Resistance
+TP53INP1	interacts with	Reduced Cell Migration
+TP53INP1	interacts with	Impaired Insulin Secretion
+SLC30A8	interacts with	Glucose Intolerance
+SLC30A8	interacts with	Pancreatic beta cells
+TMEM19	interacts with	Glucose metabolism
+TMEM19	interacts with	Kidney function
+GCK	interacts with	Glucose Intolerance
+GCK	interacts with	Hyperglycemia
+JAZF1	interacts with	Impaired Insulin Secretion
+JAZF1	interacts with	Glucose Intolerance
+CDKAL1	interacts with	Impaired Insulin Secretion
+ADCY5	interacts with	Impaired Glucose Signaling
+ADCY5	interacts with	Elevated Fasting Glucose
+ADCY5	interacts with	Disease Susceptibility
+ADAMTS9	interacts with	Reduced Insulin Signaling
+ADAMTS9	interacts with	Insulin Resistance
+PPARG	interacts with	Adipose tissue disorders
+PPARG	interacts with	Insulin Resistance
+IGF2BP2	interacts with	Impaired Insulin Secretion
+IGF2BP2	interacts with	Glucose Intolerance
+FNDC4	interacts with	Glucose Intolerance
+FNDC4	interacts with	Insulin Resistance
+GCKR	interacts with	Glucose metabolism
+GCKR	interacts with	Impaired Fasting Glucose
+BCL11A	interacts with	Excessive Insulin Secretion
+ITGB6	interacts with	Glucose metabolism
+ITGB6	interacts with	Insulin Resistance
+THADA	interacts with	Reduced Insulin Signaling
+THADA	interacts with	Pancreatic beta cells
+IRS1	interacts with	Reduced Insulin Signaling
+IRS1	interacts with	Pancreatic beta cells
+PROX1	interacts with	Impaired Insulin Secretion
+PROX1	interacts with	Glucose Intolerance
+ABCC8	interacts with	Excessive Insulin Secretion
+ABCC8	interacts with	Hypoglycemia
+KCNJ11	interacts with	Impaired Insulin Secretion
+KCNJ11	interacts with	Kidney function
+NOTCH2	interacts with	Alagille syndrome
+NOTCH2	interacts with	Kidney function
