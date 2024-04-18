@@ -38,7 +38,7 @@ st.write(filtered_mutation_expression[['gene', 'expression', 'expression 2']])
 
 # Load and display the network from .sif file as a graph
 st.write('## Entire Network (Graph)')
-network_file_path = 'C:\\Users\\siddh\\Downloads\\T2DM_Network.sif'
+network_file_path = 'data/T2DM_Network.sif'
 
 # Create an empty graph
 G = nx.Graph()
