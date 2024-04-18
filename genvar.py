@@ -7,9 +7,9 @@ import pandas as pd
 st.set_page_config(page_title="Database for Type 2 Diabetes Genetic Variants")
 
 # Load the data files with updated file paths
-coding_synonymous_variants = pd.read_csv('C:\\Users\\siddh\\Downloads\\Genvariantsyn.csv')
-coding_missense_variants = pd.read_csv('C:\\Users\\siddh\\Downloads\\Genvariantmis.csv')
-mutation_expression = pd.read_excel('C:\\Users\\siddh\\Downloads\\try_version_1.xlsb.xlsx')
+coding_synonymous_variants = pd.read_csv('data\\Genvariantsyn.csv')
+coding_missense_variants = pd.read_csv('data\\Genvariantmis.csv')
+mutation_expression = pd.read_excel('data\\try_version_1.xlsb.xlsx')
 
 # Sidebar for user input
 st.sidebar.title('Filter Options')
