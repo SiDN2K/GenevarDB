@@ -21,8 +21,23 @@ if nav_selection == "Home":
     st.markdown("This database features Single Nucleotide Polymorphisms of a collection of genes that are associated with the occurrence of Type 2 Diabetes.")
 
 elif nav_selection == "Search":
-    # Search functionality here
-    pass
+    st.header("Search")
+    search_type = st.selectbox("Search by", ["Gene", "Expression", "Expression 2"])
+
+    search_query = st.text_input("Enter search query")
+    if search_query:
+        if search_type == "Gene":
+            result = mutation_expression[mutation_expression['gene'].str.contains(search_query, case=False)]
+        elif search_type == "Expression":
+            result = mutation_expression[mutation_expression['expression'].str.contains(search_query, case=False)]
+        elif search_type == "Expression 2":
+            result = mutation_expression[mutation_expression['expression 2'].str.contains(search_query, case=False)]
+        
+        if not result.empty:
+            st.write("Search Results:")
+            st.write(result)
+        else:
+            st.write("No results found.")
 
 elif nav_selection == "Browse":
     st.header("Browse")
