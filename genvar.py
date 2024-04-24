@@ -12,9 +12,9 @@ st.markdown("A comprehensive database of genetic variants of Type 2 Diabetes mel
 st.markdown("This database features Single Nucleotide Polymorphisms of a collection of genes that are associated with the occurrence of Type 2 Diabetes.")
 
 # Load the data files with updated file paths
-coding_synonymous_variants = pd.read_csv('C:\\Users\\siddh\\Downloads\\Genvariantsyn.csv')
-coding_missense_variants = pd.read_csv('C:\\Users\\siddh\\Downloads\\Genvariantmis.csv')
-mutation_expression = pd.read_excel('C:\\Users\\siddh\\Downloads\\try_version_1.xlsb.xlsx')
+coding_synonymous_variants = pd.read_csv('data/Genvariantsyn.csv')
+coding_missense_variants = pd.read_csv('data/Genvariantmis.csv')
+mutation_expression = pd.read_excel('data/try_version_1.xlsb.xlsx')
 
 # Sidebar navigation
 nav_selection = st.sidebar.radio("Navigation", ["Search", "Browse", "Contact Us"])
