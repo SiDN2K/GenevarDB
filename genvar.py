@@ -71,23 +71,42 @@ elif nav_selection == "Browse":
     filtered_mutation_expression = mutation_expression[mutation_expression['gene'] == gene_selected]
     st.write(filtered_mutation_expression[['gene', 'expression', 'expression 2']])
 
-    # Display the gene-specific network
-    st.write('### Gene-specific Network (Graph)')
-    G = nx.Graph()
-    with open(network_file_path, 'r') as network_file:
-        for line in network_file:
-            parts = line.strip().split('\t')
-            if len(parts) >= 3:  # Check if there are at least 3 parts in the line
-                node1, interaction, node2 = parts[:3]
-                G.add_edge(node1, node2, label=interaction)  # Add edge with interaction as label
+# Create an empty graph
+G = nx.Graph()
 
-    fig, ax = plt.subplots(figsize=(10, 8))  # Set figure size
-    pos = nx.spring_layout(G, k=0.5)  # Adjust k for spacing between nodes
-    nx.draw(G, pos, with_labels=True, font_size=10, node_color='lightblue', edge_color='gray', ax=ax)
-    edge_labels = nx.get_edge_attributes(G, 'label')
-    nx.draw_networkx_edge_labels(G, pos, edge_labels=edge_labels, font_color='gray', ax=ax)
-    ax.set_title('Gene-specific Network')
-    st.pyplot(fig)
+# Read edges from .sif file and add them to the graph
+with open(network_file_path, 'r') as network_file:
+    for line in network_file:
+        parts = line.strip().split('\t')
+        if len(parts) >= 3:  # Check if there are at least 3 parts in the line
+            node1, interaction, node2 = parts[:3]
+            G.add_edge(node1, node2, label=interaction)  # Add edge with interaction as label
+
+# Create a figure and plot the network visualization
+fig, ax = plt.subplots(figsize=(15, 12))  # Larger figsize for bigger graph
+pos = nx.spring_layout(G, k=0.5)  # Increase k for more spacing between nodes
+
+# Draw the entire graph with gray edges
+nx.draw(G, pos, with_labels=True, font_size=10, node_color='lightblue', edge_color='gray', ax=ax)
+
+# Draw gray lines for edges between nodes with their interactions as labels
+for edge in G.edges(data=True):
+    pos_edge = (pos[edge[0]], pos[edge[1]])
+    ax.annotate('', xy=pos_edge[1], xytext=pos_edge[0], arrowprops=dict(arrowstyle='-', color='gray'))
+
+ax.set_title('Entire Network (Graph)')
+
+# Highlight the filtered gene by zooming in on it
+if gene_filter in G.nodes():
+    subgraph_nodes = [gene_filter]  # Nodes around the filtered gene
+    subgraph = G.subgraph(subgraph_nodes)  # Create subgraph around the filtered gene
+    pos_subgraph = nx.spring_layout(subgraph, k=2)  # Adjust k for spacing in the subgraph
+    # Draw nodes and edges of the subgraph with different colors
+    nx.draw(subgraph, pos_subgraph, with_labels=True, font_size=10, node_color='green', edge_color='black', ax=ax)
+    ax.set_title(f'Zoomed In on {gene_filter}')
+
+# Display the plot using st.pyplot(fig)
+st.pyplot(fig)
 
 else:  # Contact Us
     st.header("Contact Us")
